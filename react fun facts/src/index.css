@@ -1,0 +1,17 @@
+
+* {
+    box-sizing: border-box;
+}
+  
+body {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+h3 {
+    font-weight: 700;
+}
+
+h4{
+    font-weight: 500;
+}
+

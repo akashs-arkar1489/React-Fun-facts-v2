@@ -1,0 +1,29 @@
+
+.navbar{
+  box-shadow: 0 10px 20px 0 #73737347;
+  background-color: rgba(33, 34, 42, 1);
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.nav-title {
+  display: flex;
+}
+
+.nav-title > h3 {
+  padding-left: 5px;
+  color: rgba(0, 216, 255, 1);
+}
+
+.nav-text {
+  color: rgba(222, 235, 248, 1);
+}
+
+.nav-logo{
+  width: 40px;
+}
