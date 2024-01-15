@@ -1,19 +1,9 @@
 # React Project
 
-install vite + react
-
+run command
 ````
-$ npm create vite@latest
-````
-
-install npm
-
-````
-$ npm install 
-````
-
-Run App
-
-````
+$ cd React-Fun-Facts-v2
+$ cd "react fun facts"
+$ npm install
 $ npm run dev
 ````
