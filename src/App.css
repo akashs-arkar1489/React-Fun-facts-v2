@@ -54,7 +54,8 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  position: relative;
+  border: 1px solid black;
+  box-sizing: content-box;
 }
 
 .nav.dark .toggler-slider {
@@ -71,10 +72,6 @@
   width: 13px;
   background-color: white;
   border-radius: 50%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  transition: all 0.3s ease;
 }
 
 .nav.dark .toggle-slider-circle {
