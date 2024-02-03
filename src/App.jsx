@@ -4,7 +4,7 @@ import Main from './components/Main'
 import { useState } from 'react'
 
 function App() {
-  const [theme,setTheme] = useState(true)
+  const [theme,setTheme] = useState(false)
   
   return (
     <div className='container'>
