@@ -1,6 +1,7 @@
-export default function Main() {
+/* eslint-disable react/prop-types */
+export default function Main(props) {
     return (
-        <div className="main-container">
+        <div className={`main-container ${props.themeMode === true ? "dark" : "" }`}>
             <h1>Fun facts about React</h1>
             <ul>
                 <li>Was first released in 2013</li>
