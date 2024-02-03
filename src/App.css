@@ -9,6 +9,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px;
+  background-color: #ffffff;
 }
 
 .nav-title {
@@ -20,13 +21,42 @@
   color: rgba(0, 216, 255, 1);
 }
 
-.nav-text {
-  color: rgba(222, 235, 248, 1);
-}
-
 .nav-logo{
   width: 40px;
 }
+
+.toggler{
+  display: flex;
+  align-items: center;
+}
+
+.toggler  p {
+  font-size: 0.625rem;
+  font-weight: 600;
+}
+
+.toggler-slider{
+  height: 13px;
+  width: 25px;
+  background-color: #2B283A;
+  border-radius: 2rem;
+  margin-inline: 7px;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid black;
+  box-sizing: content-box;
+}
+
+.toggle-slider-circle{
+  height: 13px;
+  width: 13px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+/* main section */
 
 .main-container{
   padding: 57px;
@@ -35,17 +65,15 @@
 }
 
 .main-container > h1 {
-  color: rgba(255, 255, 255, 1);
   letter-spacing: -0.05em;
 }
 
 .main-container > ul > li {
   padding: 10px 0 10px 0;
   font-weight: 500;
-  color: rgba(255, 255, 255, 1);
 }
 
 .main-container > ul > li::marker{
-  color: rgba(97, 218, 251, 1);
+  color: #61DAFB;
   font-size: 1.4em;
 }

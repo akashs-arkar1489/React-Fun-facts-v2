@@ -10,7 +10,13 @@ export default function Navbar() {
                         <h3>React Facts</h3>
                     </div>
                     <div>
-                        <h4 className="nav-text">React Course - Project 1</h4>
+                        <div className="toggler">
+                            <p className="toggler-light">Light</p>
+                            <div className="toggler-slider">
+                                <div className="toggle-slider-circle"></div>
+                            </div>
+                            <p className="toggler-dark">Dark</p>
+                        </div>
                     </div>
 
                 </nav>
