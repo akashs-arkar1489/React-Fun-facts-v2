@@ -1,4 +1,3 @@
-import React from "react"
 import reactlogo from "../assets/react.svg"
 
 export default function Navbar() {
