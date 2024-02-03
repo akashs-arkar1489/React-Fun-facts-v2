@@ -85,7 +85,7 @@
   color: #2B283A;
 }
 
-.nav.dsrk .toggler-light {
+.nav.dark .toggler-light {
   color: #918E9B;
 }
 .toggler-dark {
@@ -105,6 +105,12 @@
   background-position: right center;
   flex: 1 1 auto;
   color: #2B283A;
+}
+
+.main-container.dark {
+  background-image: url("./assets/react-icon-dark.png"); 
+  background-color: #282D35;
+  color: white;    
 }
 
 .main-container > h1 {
