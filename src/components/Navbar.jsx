@@ -7,6 +7,7 @@ export default function Navbar(props) {
         props.updateThemeMode(prvMode => !prvMode)
     }
     const theme = props.themeMode === true ? "dark" : ""
+    
     return (
             <header className="navbar">
                 <nav className={`nav ${theme}`}>

@@ -4,7 +4,7 @@ import Main from './components/Main'
 import { useState } from 'react'
 
 function App() {
-  const [theme,setTheme] = useState(false)
+  const [theme,setTheme] = useState(window.matchMedia('(prefers-color-scheme: dark)').matches)
   
   return (
     <div className='container'>
